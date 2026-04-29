@@ -1,0 +1,13 @@
+appId: com.zapis.desktop
+productName: Zapis
+directories:
+  output: dist/release
+files:
+  - dist/**
+  - package.json
+mac:
+  category: public.app-category.productivity
+win:
+  target: nsis
+linux:
+  target: AppImage
